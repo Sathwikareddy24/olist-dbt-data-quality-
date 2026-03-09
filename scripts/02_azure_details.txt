@@ -1,0 +1,3 @@
+Account Name: olistdatalake24
+
+Container Name: raw-data
