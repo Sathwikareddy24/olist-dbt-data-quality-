@@ -16,8 +16,7 @@ final AS (
         p.product_name_length
     FROM orders AS o
     LEFT JOIN products AS p 
-        ON o.order_id = p.product_id  
+        ON o.order_id = p.product_id 
 )
 
-SELECT * FROM final 
-
+SELECT * FROM final
