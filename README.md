@@ -1470,10 +1470,8 @@ See [LICENSE](LICENSE) file for full details.
 
 **Sathwika Reddy Papaiahgari**
 
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- 📧 Email: sathwikap1012@gmail.com
+- 🐙 GitHub:https://github.com/Sathwikareddy24 
 
 ### Acknowledgments
 
