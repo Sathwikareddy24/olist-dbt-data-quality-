@@ -17,8 +17,7 @@ A data quality and transformation pipeline for the Olist Brazilian e-commerce da
 - [Usage](#-usage)
 - [Data Models](#-data-models)
 - [Contributing](#-contributing)
-- [License](#-license)
-
+  
 ---
 
 ## 🎯 About
