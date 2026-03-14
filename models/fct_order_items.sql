@@ -2,24 +2,19 @@ WITH orders AS (
     SELECT * FROM {{ ref('stg_orders') }}
 ),
 
-order_items AS (
-    SELECT * FROM {{ ref('stg_order_items') }}
-),
-
-products AS (
-    SELECT * FROM {{ ref('stg_products') }}
+payments AS (
+    SELECT * FROM {{ ref('stg_payments') }}
 ),
 
 final AS (
     SELECT
         o.order_id,
         o.customer_id,
-        oi.product_id, -- We get the product_id from the items table
-        p.product_category_name,
-        p.product_name_length
+        o.order_status,
+        pay.payment_type,
+        pay.payment_value
     FROM orders AS o
-    INNER JOIN order_items AS oi ON o.order_id = oi.order_id -- Link order to items
-    LEFT JOIN products AS p ON oi.product_id = p.product_id -- Link items to product details
+    LEFT JOIN payments AS pay ON o.order_id = pay.order_id
 )
 
 SELECT * FROM final
