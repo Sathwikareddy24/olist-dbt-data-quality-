@@ -320,12 +320,6 @@ WHERE total_price <= 0
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 📧 Contact
 
 **Sathwika Reddy**
@@ -348,6 +342,6 @@ This project is licensed under the MIT License.
 
 **⭐ Star this repo if you find it helpful!**
 
-Made with ❤️ by Sathwika Reddy Papaiahgari
+
 
 </div>
