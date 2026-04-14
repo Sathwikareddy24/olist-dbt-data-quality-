@@ -10,7 +10,7 @@ A data quality and transformation pipeline for the Olist Brazilian e-commerce da
 
 ## 📑 Table of Contents
 
-- [About](#-about) 
+- [About](#-about)
 - [Architecture](#-architecture)
 - [Project Structure](#-project-structure)
 - [Quick Start](#-quick-start)
